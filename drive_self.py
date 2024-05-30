@@ -1,5 +1,4 @@
 import time
-import keyboard
 import serial
 
 def berechne_geschwindigkeit(motordrehzahl, gang, getriebe_uebersetzungen, reifen_breite, reifen_profil, felgendurchmesser, achsantrieb_uebersetzung):
@@ -49,7 +48,7 @@ gang = 1
 drehzahl = 0
 geschwindigkeit = 0
 blinker_l = False
-blinker_r = False
+blinker_r = True
 coolant_temp_degC = 90
 fuel_level_percent = 50
 handbrake = False
