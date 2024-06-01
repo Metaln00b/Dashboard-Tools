@@ -27,7 +27,7 @@ def berechne_motordrehzahl(geschwindigkeit, gang, getriebe_uebersetzungen, reife
 
 # Serielle Schnittstelle initialisieren (anpassen Sie den Port und die Baudrate entsprechend)
 #ser = serial.Serial('/dev/rfcomm0', 115200)
-ser = serial.Serial('/dev/ttyUSB1', 115200)
+ser = serial.Serial('/dev/ttyUSB0', 115200)
 
 getriebe_uebersetzungen = [3.545, 2.105, 1.429, 1.029, 0.838]
 
